@@ -1,0 +1,269 @@
+*{
+    padding: o;
+    margin: 0 auto;
+}
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+
+}
+.miama{
+font-family: 'Miama', sans-serif;
+}                                          
+/* shared style */
+body{
+    background: black;
+    color: #FFF; 
+    margin: 0 ;
+   
+}
+    
+
+.font-color{
+    color: #FFF;    
+}
+
+.Orange{
+    color: #E6533C;
+
+}
+.p-color{
+    color: rgba(255, 255, 255, 0.50);
+
+    ;
+}
+.p-font{
+    font-size: .80rem;
+    font-weight: 400;
+}
+.primary-btn{
+    background: #E6533C;
+    border: none;
+    border-radius: 15px;
+    color: #FFF;
+    padding: 8px 20px;
+    font-size: .75rem;
+    font-weight: 600;
+
+}
+
+.secondary-btn{
+    background-color: transparent;
+    border: none;
+    border-radius: 15px;
+    color: #FFF;
+    padding: 8px 20px;
+    font-size: .75rem;
+    font-weight: 600;
+   
+}
+/* Header-nav */
+header{
+    background: #111;
+    /* padding: 0 10px; */
+    max-width:1440px;
+   
+    
+    
+
+
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px auto;
+    max-width: 80%;
+    
+    
+    
+    
+    
+}
+.nav-title{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 2.25rem;
+    padding: 8px 10px;
+    margin: 57px 0px auto;
+
+}
+ 
+.nav-btn{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 20px;
+    list-style: none;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 0px 0px;
+    gap: 37px;
+    margin-right: 30px;
+    margin-top: 57px;
+   
+}
+.nav-link{
+    
+    color: #FFF;
+    /* padding: 8px 15px; */
+    font-size: .75rem;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+.orange-nav-link{
+    background-color: #E6533C;
+    border-radius: 20px;
+    padding: 8px 20px;
+   
+}
+.nav-item{
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+ /* header-banner */
+
+ .banner-container{
+    display: flex;
+    max-width: 80%;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 32px auto;
+    gap: 150px;
+ }
+.banner-title{
+    font-size: 4.875rem;
+    font-weight: 900;
+
+}
+.banner-shape{
+    
+    font-size: 4.875rem;
+    font-weight: 400;
+}
+
+.banner-btn{
+    border-radius: 2.6rem;
+    border: 1px solid white;
+    font-size: .90rem;
+    
+}
+.banner-btn-1{
+    font-size: .90rem;
+
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    
+}
+
+.header-btn{
+    margin: 0;
+}
+.banner-right{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.banner-img{
+    margin-left: 0px;
+    margin-top: -30px;
+    
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.banner-box-1{
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: .75rem;
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+    align-items: flex-end;
+    height: 3.5rem;
+    margin-left: 200px;
+    margin-top: -450px;
+    
+}
+.banner-box-2{
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: .75rem;
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 17px;
+    display: flex;
+    
+    width: 8.5rem;
+    
+    height: 3.5rem;
+    margin-top: -150px;
+    margin-left: -120px;
+
+
+}
+.box-title{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.box-title-2{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.box-2-content{
+    display: flex;
+    flex-direction: column;
+}
+.ball{
+    border: 1px solid #E6533C;
+    border-radius: 50%;
+    background-color: #E6533C;
+    width: 40px;
+    height: 40px;
+}
+@media screen and (max-width:576px){
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-btn{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0px;
+        border-radius: 0;
+        border: none;
+
+        gap: 2px;
+    }
+    .orange-nav-link{
+        background-color: #FFF;
+        margin: 0;
+        
+        padding: 2px 10px;
+
+    }
+    .nav-item{
+        background-color: #FFF;
+        margin: 0;
+        
+        padding: 2px 10px;
+    }
+    .nav-link{
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    
+}
