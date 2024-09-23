@@ -60,7 +60,7 @@ body{
 /* Header-nav */
 header{
     background: #111;
-    /* padding: 0 10px; */
+    
     max-width:1440px;
    
     
@@ -159,12 +159,13 @@ header{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    align-items: flex-start;
+    
     
 }
 
 .header-btn{
     margin: 0;
+    
 }
 .banner-right{
     display: flex;
@@ -196,6 +197,7 @@ header{
     height: 3.5rem;
     margin-left: 200px;
     margin-top: -450px;
+    backdrop-filter: blur(20px);
     
 }
 .banner-box-2{
@@ -210,6 +212,7 @@ header{
     height: 3.5rem;
     margin-top: -150px;
     margin-left: -120px;
+    backdrop-filter: blur(20px);
 
 
 }
@@ -232,16 +235,8 @@ header{
     width: 40px;
     height: 40px;
 }
-@media screen and (max-width:576px){
-    .nav{
-        /* display: flex; */
-        /* justify-content: space-between; */
-        /* margin: 0px 0px; */
-        /* align-items: center; */
-        
-    }
-    
-    
+@media screen and (max-width: 576px){
+     
     .nav-btn{
         display: flex;
         flex-direction: column;
@@ -249,7 +244,6 @@ header{
         padding: 0px;
         border-radius: 0;
         border: none;
-
         gap: 2px;
     }
     .orange-nav-link{
@@ -272,11 +266,11 @@ header{
     }
     .banner-container{
         flex-direction: column; 
-        /* margin: 0px; */
-        margin-bottom: 0px;
-        /* align-items: center; */
+        
     }
-    
+    .header-btn{
+        justify-content: space-between;
+    }
     
     .banner-box-2{
         margin-left: 0px;
@@ -299,9 +293,15 @@ header{
         display: flex;
         align-items: center;
     }
-    
+    .box-title{
+        font-size: 1.9rem;
+        font-weight: 900;
+    }
+    .box-title-2{
+        font-size: 1.14rem;
+    }
+    .banner-title{
+        font-size: 2.25rem;
+    }
 
-
-
-    
 }
