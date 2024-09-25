@@ -306,7 +306,10 @@ header{
 
 }
  /* main-section-your-habits */
-
+main{
+    max-width: 1440px;
+}
+ 
  .your-habits{
     max-width: 80%;
     /* justify-items: center; */
@@ -359,8 +362,43 @@ header{
     }
     .habits-cards{
         grid-template-columns: repeat(1,1fr);
-        padding: 60px;
+        padding: 0px;
     }
 
 
+}
+
+/* run-section */
+
+.run{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    padding: 40px;
+    gap: 166px;
+}
+.run-img-container{
+    max-width: 280px;
+    max-height: 250px;
+    overflow: hidden;
+    /* position: relative; */
+   
+}
+.img-run{
+    /* width: auto; */
+    /* height: 100%; */
+    /* position: relative; */
+    /* left: 40%; */
+    /* transform: translateX(-50%); */
+    transform: scale(4.25, 1.11);
+    margin-right: 40px;
+    
+    max-width: 280px;
+    max-height: 250px;
+    
+
+}
+
+.display{
+    display: none;
 }
