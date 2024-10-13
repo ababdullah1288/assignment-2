@@ -33,7 +33,7 @@ body{
     ;
 }
 .p-font{
-    font-size: .70rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 .primary-btn{
@@ -371,34 +371,45 @@ main{
 /* run-section */
 
 .run{
+    max-width: 80%;
+    margin-top: 6%;
     display: flex;
     justify-content: space-between;
-    max-width: 80%;
-    padding: 40px;
-    gap: 166px;
+    background: #111;
+    border-radius: 20px;
 }
+
+.run-description{
+    width: 30%;
+    margin: 40px;
+    
+
+}
+
+.run-title{
+    font-size: 3rem;
+    margin-bottom: 20px;   
+}
+
+.run-p{
+    line-height: 24px;
+}
+.btn-join{
+    margin-top: 30px;
+    font-size: 1.125rem;
+    padding: 15px 60px;
+    border-radius: 30px;
+}
+  
 .run-img-container{
-    max-width: 280px;
-    max-height: 250px;
-    overflow: hidden;
-    /* position: relative; */
-   
+  margin: 40px;  
 }
 .img-run{
-    /* width: auto; */
-    /* height: 100%; */
-    /* position: relative; */
-    /* left: 40%; */
-    /* transform: translateX(-50%); */
-    transform: scale(4.25, 1.11);
-    margin-right: 40px;
-    
-    max-width: 280px;
-    max-height: 250px;
-    
-
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    object-fit: none;
+    object-position: 68% 30%;
 }
 
-.display{
-    display: none;
-}
+
